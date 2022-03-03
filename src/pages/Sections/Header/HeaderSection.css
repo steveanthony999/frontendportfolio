@@ -5,3 +5,7 @@
   align-items: center;
   justify-content: center;
 }
+.HeaderSection-container h2 {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 3rem;
+}

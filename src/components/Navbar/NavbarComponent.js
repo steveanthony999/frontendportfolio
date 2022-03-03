@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import './NavbarComponent.css';
 
@@ -10,9 +10,9 @@ const NavbarComponent = () => {
           to='header'
           activeClass='active'
           spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+          smooth='easeInOutQuart'
+          //   offset={-70}
+          duration={750}
         >
           SW
         </Link>
@@ -22,9 +22,9 @@ const NavbarComponent = () => {
           to='about'
           activeClass='active'
           spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+          smooth='easeInOutQuart'
+          //   offset={-70}
+          duration={750}
         >
           ABOUT
         </Link>
@@ -32,9 +32,9 @@ const NavbarComponent = () => {
           to='projects'
           activeClass='active'
           spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+          smooth='easeInOutQuart'
+          //   offset={-70}
+          duration={750}
         >
           PROJECTS
         </Link>
@@ -42,9 +42,9 @@ const NavbarComponent = () => {
           to='contact'
           activeClass='active'
           spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
+          smooth='easeInOutQuart'
+          //   offset={-70}
+          duration={750}
         >
           CONTACT
         </Link>
