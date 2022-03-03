@@ -9,3 +9,22 @@
   backdrop-filter: blur(0.5rem);
   z-index: 2;
 }
+
+.NavbarComponent-left {
+  margin-left: 2rem;
+}
+
+.NavbarComponent-right {
+  margin-right: 2rem;
+}
+
+.NavbarComponent-left a {
+  font-family: 'Shippori Mincho', serif;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.NavbarComponent-right a {
+  margin-left: 2rem;
+}
