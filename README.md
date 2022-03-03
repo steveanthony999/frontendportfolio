@@ -69,4 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <ul>
 <li>React</li>
 <li>React Router Dom v6</li>
+<li>React Scroll</li>
 </ul>
