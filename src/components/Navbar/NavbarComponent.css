@@ -48,3 +48,9 @@
 .nav-link:hover {
   box-shadow: var(--color-medium-blue) 0 0 0 4px, transparent 0 0 0 0;
 }
+
+.Navbar-x,
+.Navbar-hamburger {
+  color: var(--color-medium-blue);
+  margin-right: 2rem;
+}

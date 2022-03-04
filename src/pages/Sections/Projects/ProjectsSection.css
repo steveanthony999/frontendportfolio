@@ -1,6 +1,7 @@
 .ProjectsSection {
   width: 100%;
-  min-height: calc(100vh - 5rem);
+  /* min-height: calc(100vh - 5rem); */
+  margin-top: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +9,7 @@
 
 .ProjectsSection-container {
   width: 100%;
-  min-height: 60vh;
+  /* min-height: 60vh; */
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -19,7 +20,7 @@
   margin-top: 10rem;
   margin-right: 12rem;
   font-family: 'Shippori Mincho', serif;
-  font-size: 12rem;
+  font-size: 10rem;
   color: var(--color-medium-blue);
   opacity: 0.5;
   position: relative;
@@ -180,4 +181,106 @@
   margin-top: 1rem;
   padding: 1rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1023px) {
+  .ProjectsSection {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .ProjectsSection-container {
+    margin-top: 2rem;
+  }
+
+  .project-container:nth-child(2) {
+    margin-left: 0rem;
+  }
+
+  .ProjectsSection-container-top h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .ProjectsSection-container-top h2 div {
+    width: 3rem;
+    height: 3rem;
+    top: -1.4rem;
+  }
+
+  .project-container {
+    margin-top: 2rem;
+    margin-right: 0;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .project-container:nth-child(2) {
+    margin-top: 2rem;
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+
+  .project-container-main-left:before,
+  .project-container-secondary-right:before {
+    display: none;
+  }
+
+  .project-container-main-left img,
+  .project-container-secondary-right img {
+    width: 100vw;
+  }
+
+  .project-container-main-right {
+    width: 100%;
+    position: relative;
+    right: 0;
+  }
+
+  .project-container-secondary-left {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+
+  .project-container-main-right-middle,
+  .project-container-secondary-left-middle {
+    background: none;
+    box-shadow: none;
+  }
+
+  .project-container-main-right-bottom .view-container a,
+  .project-container-secondary-left-bottom .view-container a {
+    margin: 1rem 2rem;
+    display: flex;
+  }
+
+  .project-container:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .title {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .project-container-main-right-bottom .tech-container ul,
+  .project-container-secondary-left-bottom .tech-container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container-main-right-bottom .tech-container ul li {
+    margin-left: 0;
+  }
+
+  .project-container-secondary-left-bottom .tech-container ul li {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 2879px) {
+  .ProjectsSection-container-top h2 {
+    font-size: 14rem;
+  }
 }
