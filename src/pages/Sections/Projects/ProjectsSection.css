@@ -5,3 +5,34 @@
   align-items: center;
   justify-content: center;
 }
+
+.ProjectsSection-container {
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProjectsSection-container-top h2 {
+  margin-top: 10rem;
+  margin-right: 12rem;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 12rem;
+  color: var(--color-medium-blue);
+  opacity: 0.5;
+  position: relative;
+  text-align: right;
+}
+
+.ProjectsSection-container-top h2 div {
+  width: 12rem;
+  height: 12rem;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -8rem;
+  right: 0;
+  z-index: -1;
+}

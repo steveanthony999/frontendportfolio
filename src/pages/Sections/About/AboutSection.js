@@ -3,6 +3,7 @@ import {
   faBootstrap,
   faCss3,
   faDigitalOcean,
+  faFigma,
   faGit,
   faGitAlt,
   faGithub,
@@ -39,7 +40,7 @@ const AboutSection = () => {
             </p>
           </div>
           <h3>Tools</h3>
-          <div className='AboutSection-tools'>
+          <div className='AboutSection-tools container'>
             <FontAwesomeIcon icon={faHtml5} size='2x' />
             <FontAwesomeIcon icon={faCss3} size='2x' />
             <FontAwesomeIcon icon={faSass} size='2x' />
@@ -49,6 +50,7 @@ const AboutSection = () => {
             <FontAwesomeIcon icon={faReact} size='2x' />
             <FontAwesomeIcon icon={faGitAlt} size='2x' />
             <FontAwesomeIcon icon={faGithub} size='2x' />
+            <FontAwesomeIcon icon={faFigma} size='2x' />
           </div>
         </div>
       </div>
