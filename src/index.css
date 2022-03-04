@@ -22,6 +22,10 @@ a:hover {
   cursor: pointer;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .container {
   max-width: 900px;
 }
