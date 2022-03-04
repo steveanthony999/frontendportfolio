@@ -19,6 +19,7 @@ const NavbarComponent = () => {
       </div>
       <div className='NavbarComponent-right'>
         <Link
+          className='button-35'
           to='about'
           activeClass='active'
           spy={true}
@@ -29,6 +30,7 @@ const NavbarComponent = () => {
           ABOUT
         </Link>
         <Link
+          className='button-35'
           to='projects'
           activeClass='active'
           spy={true}
@@ -39,6 +41,7 @@ const NavbarComponent = () => {
           PROJECTS
         </Link>
         <Link
+          className='button-35'
           to='contact'
           activeClass='active'
           spy={true}

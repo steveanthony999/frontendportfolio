@@ -12,7 +12,7 @@ const HeaderSection = () => {
           <img src={Avatar} alt='steve' />
         </div>
         <div className='HeaderSection-container-right'>
-          <p>Hey there, I'm</p>
+          <p>Hey there, my name's</p>
           <h2>Steve</h2>
           <p>
             I'm a frontend engineer specializing in bringing ambitious designs
