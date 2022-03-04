@@ -16,7 +16,8 @@ const HeaderSection = () => {
           <h2>Steve</h2>
           <p>
             I'm a frontend engineer specializing in bringing ambitious designs
-            to life while focusing on creating a unique user experience.
+            to life with code while focusing on creating a unique user
+            experience.
           </p>
           <Link
             to='projects'

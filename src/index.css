@@ -14,7 +14,8 @@
 body {
   font-family: 'Hubballi', cursive;
   font-size: 1.25rem;
-  letter-spacing: 2px;
+  letter-spacing: 1.7px;
+  line-height: 1.7rem;
 }
 
 a:hover {
