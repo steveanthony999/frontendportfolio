@@ -26,3 +26,7 @@
   font-weight: 700;
   color: var(--color-medium-blue);
 }
+
+.MobileMenuComponent-container .socials a {
+  margin-left: 2rem;
+}

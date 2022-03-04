@@ -1,5 +1,12 @@
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
+import {
+  faCodepen,
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { useMobileMenu, useMobileMenuUpdate } from '../../MobileMenuContext';
 
@@ -59,6 +66,40 @@ const MobileMenuComponent = () => {
             >
               CONTACT
             </Link>
+            <div className='socials'>
+              <a
+                href='https://twitter.com/putersteve'
+                target='_blank'
+                rel='noreferrer'
+                onClick={toggleMenu}
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/steven-woodward-7a422713b/'
+                target='_blank'
+                rel='noreferrer'
+                onClick={toggleMenu}
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a
+                href='https://github.com/steveanthony999'
+                target='_blank'
+                rel='noreferrer'
+                onClick={toggleMenu}
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a
+                href='https://codepen.io/steveanthony999'
+                target='_blank'
+                rel='noreferrer'
+                onClick={toggleMenu}
+              >
+                <FontAwesomeIcon icon={faCodepen} />
+              </a>
+            </div>
           </div>
         </motion.div>
       ) : null}
