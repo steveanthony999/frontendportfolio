@@ -34,7 +34,7 @@
 /*  */
 /*  */
 
-.button-35 {
+.nav-link {
   /* align-items: center; */
   background-color: transparent;
   border-radius: 12px;
@@ -45,6 +45,6 @@
   transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
 }
 
-.button-35:hover {
-  box-shadow: var(--color-medium-blue) 0 0 0 3px, transparent 0 0 0 0;
+.nav-link:hover {
+  box-shadow: var(--color-medium-blue) 0 0 0 4px, transparent 0 0 0 0;
 }
