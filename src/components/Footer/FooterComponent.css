@@ -1,6 +1,7 @@
 .FooterComponent {
   width: 100%;
   padding: 2rem;
+  background: var(--color-light-blue);
   display: flex;
   justify-content: center;
   text-align: center;
