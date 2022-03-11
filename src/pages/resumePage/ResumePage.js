@@ -4,9 +4,10 @@ const ResumePage = () => {
   return (
     <div>
       <iframe
-        src={`${__dirname}/StevenWoodwardResume.pdf`}
+        src={`${window.location.origin}/StevenWoodwardResume.pdf`}
         width='100%'
         height='2000px'
+        title='resume'
       ></iframe>
     </div>
   );
