@@ -4,7 +4,7 @@ const ResumePage = () => {
   return (
     <div>
       <iframe
-        src={`/StevenWoodwardResume.pdf`}
+        src={`${__dirname}/StevenWoodwardResume.pdf`}
         width='100%'
         height='2000px'
       ></iframe>
