@@ -44,6 +44,10 @@
   margin-top: 2rem;
 }
 
+.HeaderSection-container-right .button-2 {
+  margin-left: 1rem;
+}
+
 @media screen and (max-width: 767px) {
   .HeaderSection {
     padding: 1rem;

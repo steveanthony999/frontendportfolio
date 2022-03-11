@@ -19,16 +19,21 @@ const HeaderSection = () => {
             to life with code while focusing on creating a unique user
             experience.
           </p>
-          <Link
-            to='projects'
-            activeClass='active'
-            spy={true}
-            smooth='easeInOutQuart'
-            duration={750}
-            className='button'
-          >
-            See Projects
-          </Link>
+          <div className='button-container'>
+            <Link
+              to='projects'
+              activeClass='active'
+              spy={true}
+              smooth='easeInOutQuart'
+              duration={750}
+              className='button'
+            >
+              See Projects
+            </Link>
+            <a href='/resume' target='_blank' className='button-2'>
+              Resumé
+            </a>
+          </div>
         </div>
       </div>
     </header>

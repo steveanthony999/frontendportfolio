@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { MobileMenuProvider } from './MobileMenuContext';
 
 import HomePage from './pages/homePage/HomePage';
+import ResumePage from './pages/resumePage/ResumePage';
 
 import NavbarComponent from './components/Navbar/NavbarComponent';
 import FooterComponent from './components/Footer/FooterComponent';
@@ -14,12 +15,21 @@ function App() {
   return (
     <MobileMenuProvider>
       <div className='App'>
-        <NavbarComponent />
-        <MobileMenuComponent />
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route
+            exact
+            path='/'
+            element={
+              <>
+                <HomePage />
+                <NavbarComponent />
+                <MobileMenuComponent />
+                <FooterComponent />
+              </>
+            }
+          />
+          <Route path='/resume' element={<ResumePage />} />
         </Routes>
-        <FooterComponent />
       </div>
     </MobileMenuProvider>
   );
