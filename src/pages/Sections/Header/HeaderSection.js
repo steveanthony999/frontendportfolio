@@ -30,7 +30,11 @@ const HeaderSection = () => {
             >
               See Projects
             </Link>
-            <a href='/resume' target='_blank' className='button-2'>
+            <a
+              href='/StevenWoodwardResume.pdf'
+              target='_blank'
+              className='button-2'
+            >
               Resumé
             </a>
           </div>
