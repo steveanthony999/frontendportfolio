@@ -6,6 +6,7 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Fade } from 'react-awesome-reveal';
 
 import './ContactSection.css';
 
@@ -35,10 +36,12 @@ const ContactSection = () => {
     <section className='ContactSection' id='contact'>
       <div className='ContactSection-container'>
         <div className='ContactSection-container-top'>
-          <h2>
-            <div />
-            Get in Touch
-          </h2>
+          <Fade triggerOnce={true} delay={250}>
+            <h2>
+              <div />
+              Get in Touch
+            </h2>
+          </Fade>
         </div>
         <div className='ContactSection-inner-container'>
           <div className='ContactSection-left'>
