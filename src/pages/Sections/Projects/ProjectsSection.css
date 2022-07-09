@@ -119,7 +119,8 @@
 
 /* SECONDARY */
 
-.project-container:nth-child(2) {
+.project-container:nth-child(2),
+.project-container:nth-child(4) {
   margin-top: 16rem;
   display: flex;
   flex-direction: row;
@@ -195,9 +196,10 @@
     margin-top: 2rem;
   }
 
-  .project-container:nth-child(2) {
+  .project-container:nth-child(2),
+  .project-container:nth-child(4) {
     margin-left: 0rem;
-  }
+}
 
   .ProjectsSection-container-top h2 {
     margin-top: 2rem;
@@ -217,7 +219,8 @@
     text-align: left;
   }
 
-  .project-container:nth-child(2) {
+  .project-container:nth-child(2),
+  .project-container:nth-child(4) {
     margin-top: 2rem;
     flex-direction: column-reverse;
     text-align: left;
@@ -257,7 +260,8 @@
     display: flex;
   }
 
-  .project-container:nth-child(2) {
+  .project-container:nth-child(2),
+  .project-container:nth-child(4) {
     margin-left: 0;
   }
 
