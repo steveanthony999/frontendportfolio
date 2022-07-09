@@ -84,7 +84,8 @@
   text-align: right;
 }
 
-.project-container:nth-child(2) {
+.project-container:nth-child(2),
+.project-container:nth-child(4) {
   margin-left: 36rem;
 }
 
@@ -141,6 +142,7 @@
   width: 80%;
   position: absolute;
   left: -50%;
+  z-index: 2;
 }
 
 .project-container-secondary-left-middle {

@@ -1,13 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
-import { Fade, JackInTheBox } from 'react-awesome-reveal';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Fade } from 'react-awesome-reveal';
 
 import coderMerchImage from '../../../assets/codermerch.png';
 import vlhtImage from '../../../assets/vlht.png';
 import feMentorImage from '../../../assets/fe.png';
+import productFeedbackImage from '../../../assets/productfeedbackapp.png';
 
 import './ProjectsSection.css';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ProjectsSection = () => {
   return (
@@ -21,9 +22,57 @@ const ProjectsSection = () => {
             </h2>
           </div>
         </Fade>
-        <JackInTheBox delay={250} triggerOnce={true}>
+        <Fade delay={250} triggerOnce={true}>
           <div className='ProjectsSection-container-middle'>
             {/* PROJECT 1 */}
+            <div className='project-container container'>
+              <div className='project-container-secondary-left'>
+                <div className='project-container-secondary-left-top'>
+                  <p className='title'>Product Feedback App</p>
+                </div>
+                <div className='project-container-secondary-left-middle'>
+                  <p className='description'>
+                    Product Feedback App is a Frontend Mentor Guru Challenge that I took full-stack using the MERN stack and deployed to Linode.
+                  </p>
+                </div>
+                <div className='project-container-secondary-left-bottom'>
+                  <div className='tech-container'>
+                    <ul>
+                      <li>Node</li>
+                      <li>MongoDB</li>
+                      <li>Express</li>
+                      <li>React</li>
+                      <li>Redux</li>
+                      <li>Sass</li>
+                    </ul>
+                  </div>
+                  <div className='view-container'>
+                    <a
+                      className='button'
+                      href='https://github.com/steveanthony999/productfeedbackapp'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                      <p>Source</p>
+                    </a>
+                    <a
+                      className='button'
+                      href='https://productfeedbackapp.steven-woodward.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <FontAwesomeIcon icon={faDesktop} />
+                      <p>Live</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className='project-container-secondary-right'>
+                <img src={productFeedbackImage} alt='productFeedbackImage' />
+              </div>
+            </div>
+            {/* PROJECT 2 */}
             <div className='project-container container'>
               <div className='project-container-main-left'>
                 <img src={coderMerchImage} alt='codermerch' />
@@ -72,7 +121,7 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
-            {/* PROJECT 2 */}
+            {/* PROJECT 3 */}
             <div className='project-container container'>
               <div className='project-container-secondary-left'>
                 <div className='project-container-secondary-left-top'>
@@ -123,7 +172,7 @@ const ProjectsSection = () => {
                 <img src={vlhtImage} alt='vlht' />
               </div>
             </div>
-            {/* PROJECT 3 */}
+            {/* PROJECT 4 */}
             <div className='project-container container'>
               <div className='project-container-main-left'>
                 <img src={feMentorImage} alt='frontendmentor' />
@@ -169,7 +218,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-        </JackInTheBox>
+        </Fade>
       </div>
     </section>
   );

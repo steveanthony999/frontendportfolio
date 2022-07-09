@@ -10,8 +10,9 @@ import {
   faNodeJs,
   faReact,
   faSass,
+  faLinux,
 } from '@fortawesome/free-brands-svg-icons';
-import { Fade, JackInTheBox } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 import './AboutSection.css';
 
@@ -27,17 +28,15 @@ const AboutSection = () => {
             </h2>
           </Fade>
         </div>
-        <JackInTheBox delay={250} triggerOnce={true}>
+        <Fade delay={250} triggerOnce={true}>
           <div className='AboutSection-container-middle'>
             <div className='container'>
               <p>
-                I’m Steve, a Frontend engineer living in Las Vegas, and I love
+                I’m Steve, a full-stack engineer living in Las Vegas, and I love
                 all things creative. From movies and music, to painting and
                 code, I am enamored by the process of putting things together to
                 form a finished product. I consider myself a life-long learner
-                and, in the past three years, I have discovered a wonderful
-                programming language with many quirks and traits that put me to
-                the test. This language is JavaScript…and I’m in love!
+                and look forward to bringing your visions to life!
               </p>
             </div>
             <h3>Tools</h3>
@@ -52,9 +51,10 @@ const AboutSection = () => {
               <FontAwesomeIcon icon={faGitAlt} size='2x' />
               <FontAwesomeIcon icon={faGithub} size='2x' />
               <FontAwesomeIcon icon={faFigma} size='2x' />
+              <FontAwesomeIcon icon={faLinux} size='2x' />
             </div>
           </div>
-        </JackInTheBox>
+        </Fade>
       </div>
     </section>
   );

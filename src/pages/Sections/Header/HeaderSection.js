@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { JackInTheBox } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 import Avatar from '../../../assets/avatar.png';
 
@@ -8,7 +8,7 @@ import './HeaderSection.css';
 const HeaderSection = () => {
   return (
     <header className='HeaderSection container' id='header'>
-      <JackInTheBox triggerOnce={true}>
+      <Fade triggerOnce={true}>
         <div className='HeaderSection-container'>
           <div className='HeaderSection-container-left'>
             <img src={Avatar} alt='steve' />
@@ -17,7 +17,7 @@ const HeaderSection = () => {
             <p>Hey there, my name's</p>
             <h2>Steve</h2>
             <p>
-              I'm a frontend engineer specializing in bringing ambitious designs
+              I'm a full-stack engineer specializing in bringing ambitious designs
               to life with code while focusing on creating a unique user
               experience.
             </p>
@@ -33,7 +33,7 @@ const HeaderSection = () => {
                 See Projects
               </Link>
               <a
-                href='/ResumeStevenWoodward.pdf'
+                href='/Resume_Steven_Woodward_2022.pdf'
                 target='_blank'
                 className='button-2'
               >
@@ -42,7 +42,7 @@ const HeaderSection = () => {
             </div>
           </div>
         </div>
-      </JackInTheBox>
+      </Fade>
     </header>
   );
 };
